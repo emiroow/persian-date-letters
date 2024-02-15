@@ -1,0 +1,29 @@
+{
+  "name": "persian-date-letters",
+  "version": "1.0.0",
+  "description": "persian-date-letters",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "persian-date-letters",
+    "persian-date",
+    "persian",
+    "date",
+    "date-letters"
+  ],
+  "author": "emiroow",
+  "license": "MIT",
+  "dependencies": {
+    "num2persian": "^3.2.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
