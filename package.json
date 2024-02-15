@@ -5,11 +5,15 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/emiroow/persian-date-letters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emiroow/persian-date-letters/issues"
   },
   "scripts": {
+    "dev": "tsc",
     "build": "tsup"
   },
   "keywords": [
@@ -19,7 +23,11 @@
     "date",
     "date-letters"
   ],
-  "author": "emiroow",
+  "author": {
+    "email": "Amir_esmaeelzadeh@yahoo.com",
+    "name": "Amir esmaeelzadeh",
+    "url": "https://emiroow.ir"
+  },
   "license": "MIT",
   "dependencies": {
     "num2persian": "^3.2.2",
