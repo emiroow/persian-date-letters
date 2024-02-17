@@ -1,6 +1,6 @@
 # Persion date to letters
 
-A brief description of what this project does and who it's for
+persian-solar-date-to-letters is a Javascript package to convert persian soalr date to persian lertters ❤️.
 
 ## Installation
 
@@ -10,18 +10,18 @@ Install persian-date-letters with npm
   npm install persian-date-letters
 ```
 
-## Demo
-
-Insert gif or link to demo
-
-## Contributing
-
-test
-
 ## Usage/Examples
 
 ```javascript
-console.log("test");
+// Import
+import { ConvertDateToLetters } from "persian-date-letters";
+
+// Only solar date is supported
+const convert = ConvertDateToLetters("1402/11/28");
+
+//Get log ...
+console.log(convert); // => بیست و هشتم بهمن یک هزار و چهارصد و دو
+
 ```
 
 ## 🚀 About Me
